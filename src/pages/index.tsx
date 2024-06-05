@@ -3,18 +3,19 @@ import React from 'react';
 import About from '../components/About';
 import Analytics from '../components/Analytics';
 import Canvas from '../components/Canvas';
-import Features from '../components/Features';
+import Contact from '../components/Contact';
 import Header from '../components/Header';
 import LazyShow from '../components/LazyShow';
 import MainHero from '../components/MainHero';
 import MainHeroImage from '../components/MainHeroImage';
-import Pricing from '../components/Pricing';
 import Product from '../components/Product';
+import Proposal from '../components/Proposal';
+import KeyValues from '../components/utils/KeyValues';
 
 const App = () => {
   return (
-    <div className={`bg-background grid gap-y-16 overflow-hidden`}>
-      <div className={`relative bg-background`}>
+    <div className={`bg-background grid overflow-hidden`}>
+      <div className={`relative bg-background main`}>
         <div className="max-w-7xl mx-auto">
           <div
             className={`relative z-10 pb-8 bg-background sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32`}
@@ -25,25 +26,37 @@ const App = () => {
         </div>
         <MainHeroImage />
       </div>
-      <Canvas />
+      {/* <Canvas /> */}
       <LazyShow>
-        <>
-          <Product />
+        <div id="proposal">
+          <Proposal />
           <Canvas />
-        </>
+        </div>
       </LazyShow>
       <LazyShow>
+        <div id="product">
+          <Product />
+          <Canvas />
+        </div>
+      </LazyShow>
+      {/* <LazyShow>
         <>
           <Features />
           <Canvas />
         </>
+      </LazyShow> */}
+      <LazyShow>
+        <div id="culture">
+          <KeyValues />
+        </div>
       </LazyShow>
       <LazyShow>
-        <Pricing />
+        <div id="contact">
+          <Contact />
+        </div>
       </LazyShow>
       <LazyShow>
         <>
-          <Canvas />
           <About />
         </>
       </LazyShow>

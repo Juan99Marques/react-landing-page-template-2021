@@ -1,7 +1,7 @@
 module.exports = {
   mode: 'jit',
   purge: ['./src/**/*.{js,ts,jsx,tsx}'],
-  darkMode: false,
+  darkMode: true,
   theme: {
     fontSize: {
       xs: '0.75rem',
@@ -17,10 +17,10 @@ module.exports = {
     },
     extend: {
       colors: {
-        primary: '#ec4755',
-        secondary: '#a12c34',
-        tertiary: '#99a0a3',
-        border: '#1a2e35',
+        primary: '#d60069',
+        secondary: '#011f4f',
+        tertiary: '#ffffff',
+        border: '#ffffff',
         background: '#ffffff',
       },
       animation: {

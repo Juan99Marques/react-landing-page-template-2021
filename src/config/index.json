@@ -1,84 +1,94 @@
 {
   "company": {
-    "name": "React landing page 2021",
+    "name": "OSS LOGO",
     "logo": "/assets/images/logo.png"
   },
   "navigation": [
     {
-      "name": "Product",
+      "name": "Servicios",
       "href": "product"
     },
     {
-      "name": "Features",
-      "href": "features"
-    },
-
-    {
-      "name": "Pricing",
-      "href": "pricing"
+      "name": "Cultura",
+      "href": "culture"
     },
     {
-      "name": "About",
-      "href": "about"
+      "name": "Contacto",
+      "href": "contact"
     }
   ],
   "callToAction": {
-    "text": "Get started",
+    "text": "",
     "href": "#"
   },
   "mainHero": {
-    "title": "Use me as your",
-    "subtitle": "landing page.",
-    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
-    "img": "/assets/images/happyTeam.jpeg",
+    "title": "TUS PROBLEMAS",
+    "subtitle": "NUESTRAS SOLUCIONES.",
+    "description": "",
+    "img": "/assets/images/home.png",
     "primaryAction": {
-      "text": "Get started",
-      "href": "#"
+      "text": "Leer más",
+      "href": "proposal"
     },
     "secondaryAction": {
-      "text": "Email us",
-      "href": "mailto:issaafakattan@gmail.com?subject=I like react landing page!"
+      "text": "Contactese",
+      "href": "mailto:contacto@ossolutions.io?subject= Información acerca de los servicios"
     }
   },
   "product": {
-    "title": "React landing page 2021",
+    "title": "NUESTRO ECOSISTEMA DE SERVICIOS",
     "items": [
       {
-        "title": "A plug n play template",
-        "description": "Just edit the config.json file with details about your company and voila your beautiful state of the art landing page is ready to go live! Remember to also update your assets, add any images you want to show to /assets/images and link them in the config.json",
-        "img": "/assets/images/product1.jpg"
+        "title": "SISTEMAS DE SEGURIDAD",
+        "description": "Protege lo que más importa. Nuestros sistemas de seguridad avanzados garantizan la protección de tus instalaciones y datos. Desde vigilancia inteligente hasta control de acceso, ofrecemos soluciones integrales que aseguran un entorno seguro y confiable, reduciendo riesgos y aumentando la tranquilidad en tu empresa.",
+        "img": "/assets/images/security.jpeg"
       },
       {
-        "title": "Make it your own!",
-        "description": "Play around with the theme.ts file and configure the color palette to match the branding of your company! If you're feeling wild, maybe change some tailwind css as well!",
-        "img": "/assets/images/product2.jpg"
+        "title": "INFRAESTRUCTURA TECNOLOGICA",
+        "description": "La base sólida de tu negocio. Diseñamos, implementamos y gestionamos infraestructuras tecnológicas robustas y escalables que impulsan la eficiencia operativa. Con nuestras soluciones, tu empresa contará con la tecnología más avanzada para soportar el crecimiento y la innovación.",
+        "img": "/assets/images/networks.jpeg"
+      },
+      {
+        "title": "FACILITY MANAGEMENT",
+        "description": "Optimización y eficiencia en cada rincón. Ofrecemos servicios de Facility Management que aseguran la operatividad y mantenimiento óptimo de tus instalaciones. Gestionamos desde el mantenimiento preventivo hasta la administración de recursos, mejorando la productividad y reduciendo costos operativos.",
+        "img": "/assets/images/facility.jpeg"
+      },
+      {
+        "title": "NETWORKING",
+        "description": "Conectividad sin límites. Nuestros servicios de networking proporcionan redes fiables y seguras que mantienen a tu empresa conectada. Desde la instalación de redes hasta la gestión y optimización, garantizamos una conectividad robusta que soporta todas tus necesidades comerciales.",
+        "img": "/assets/images/connection.jpeg"
+      },
+      {
+        "title": "SOLUCIONES DE SOFTWARE",
+        "description": "Transforma tu negocio con tecnología. Desarrollamos soluciones de software a medida que resuelven problemas específicos de tu empresa, mejorando la eficiencia y productividad. Nuestro enfoque innovador y personalizado asegura que obtengas herramientas tecnológicas que realmente hacen la diferencia.",
+        "img": "/assets/images/software.jpeg"
       }
     ]
   },
   "features": {
-    "title": "Latest & greatest ",
-    "subtitle": "All the best technologies out there!",
-    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
+    "title": "Soluciones integrales para tu empresa",
+    "subtitle": "NUESTROS VALORES FUNDAMENTALES",
+    "description": "En OSS, creemos en la importancia de mantener una ética sólida y un compromiso constante con nuestros clientes y empleados. Nuestros valores fundamentales son:",
     "items": [
       {
-        "name": "React.js",
-        "description": "React is a free and open-source front-end JavaScript library for building user interfaces or UI components.",
-        "icon": "/assets/images/react.png"
+        "name": "Integridad",
+        "description": "Actuamos con transparencia y honestidad en todas nuestras interacciones.",
+        "icon": "/assets/images/integrity.png"
       },
       {
-        "name": "Tailwind",
-        "description": "Tailwind CSS is a highly customizable, low-level CSS framework for quickly creating beautiful designs without any annoying opinionated stylesheet nonsense.",
-        "icon": "/assets/images/tailwindcss.svg"
+        "name": "Responsabilidad",
+        "description": "Asumimos la responsabilidad de nuestras acciones y su impacto en la comunidad y el medio ambiente.",
+        "icon": "/assets/images/responsability.png"
       },
       {
-        "name": "Next.js",
-        "description": "Next.js is a framework for server-rendered React applications using Next.js.",
-        "icon": "/assets/images/nextjs.svg"
+        "name": "Colaboración",
+        "description": "Trabajamos juntos, en constante comunicación con el cliente para brindarle el mejor servicio posible y asegurar una solución a medida .",
+        "icon": "/assets/images/colaboration.png"
       },
       {
-        "name": "Typescript",
-        "description": "TypeScript is a programming language developed and maintained by Microsoft.",
-        "icon": "/assets/images/ts.png"
+        "name": "Calidad",
+        "description": "Nos esforzamos por superar las expectativas de nuestros clientes con soluciones de alta calidad.",
+        "icon": "/assets/images/quality.png"
       }
     ]
   },
@@ -124,23 +134,23 @@
   "about": {
     "sections": [
       {
-        "name": "Something",
-        "href": "#",
+        "name": "Propuesta",
+        "href": "#proposal",
         "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
       },
       {
-        "name": "Something",
-        "href": "#",
+        "name": "Servicios",
+        "href": "#product",
         "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
       },
       {
-        "name": "Something",
-        "href": "#",
+        "name": "Cultura",
+        "href": "#culture",
         "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
       },
       {
-        "name": "Something",
-        "href": "#",
+        "name": "Contacto",
+        "href": "#contact",
         "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
       }
     ],

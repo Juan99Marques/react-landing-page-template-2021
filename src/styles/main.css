@@ -2,7 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'Gotham';
+  src: url('../../public/assets/fonts/Gotham/Gotham-Medium.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
 
+@font-face {
+  font-family: 'Gotham';
+  src: url('../../public/assets/fonts/Gotham/Gotham-Bold\ 10.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham';
+  src: url('../../public/assets/fonts/Gotham/Gotham-Light\ 4.otf') format('opentype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+body {
+  font-family: 'Gotham';
+}
 :root {
   --color-primary: #ec4755;
   --color-secondary: #a12c34;
@@ -25,4 +48,189 @@ a:hover {
 
 .content ul {
   @apply my-6;
+}
+
+/* NuestraPropuesta.css */
+.nuestra-propuesta-section {
+  background: linear-gradient(to right, #fc232b, #2442ad);
+  color: #fff;
+}
+
+.text-gray-500{
+  color:#fff;
+}
+.pt-4rem{
+  padding-top: 4rem;
+}
+.main-logo{
+  height: 8rem;
+
+}
+
+.nuestra-propuesta-section-2 {
+  color: #fff;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.featureImage{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+}
+
+.nuestra-propuesta-section-content {
+  background-color: #011f4f0f;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-radius: 23px;
+  -webkit-box-shadow: -2px 5px 13px -2px rgba(88,111,204,1);
+  -moz-box-shadow: -2px 5px 13px -2px rgba(88,111,204,1);
+  box-shadow: -2px 5px 13px -2px rgba(88,111,204,1);
+}
+
+
+.service-item {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  transition: transform 0.3s ease-in-out;
+}
+
+.service-item:hover {
+  transform: scale(1.05);
+}
+
+.bg-background {
+  background-color: #0e0c15;
+  background: linear-gradient(to left, #0e0c15, #0d0c14);
+
+}
+
+.wave-overlay {
+  opacity: 0 ;
+  position: absolute;
+  top: 0;
+  left: -50%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(120deg, rgb(223 0 97), rgb(100 1 203) 70%);
+  transition: left 1s cubic-bezier(0.25, 1, 0.5, 1); /* Adjusted transition for wave effect */
+}
+
+.wave-container:hover .wave-overlay {
+  opacity: 1;
+  left: 100%;
+}
+body {
+  height: 100vh;
+}
+
+.text-secondary {
+  animation: 4s ease 1s 1 alternate forwards;
+}
+.mb-50{
+  margin-bottom: 25%;    
+}
+
+a:hover{
+  background-color: linear-gradient(120deg, rgb(223 0 97), rgb(100 1 203) 70%);
+}
+
+.rounded-md:hover{
+  background-color: linear-gradient(120deg, rgb(223 0 97), rgb(100 1 203) 70%);
+
+}
+
+.title {
+  font-size: 2rem;
+  margin-top: 20px;
+}
+
+.theme-gradient {
+  background: linear-gradient(120deg, rgb(223 0 97), rgb(100 1 203) 70%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-5xl{
+  font-size: 4rem;
+}
+
+.text-4xl{
+  font-size: 3rem;
+}
+
+.text-3xl{
+  font-size: 2rem;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.tabs {
+  text-align: center;
+}
+
+.tab-buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.tab-button {
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  transition: transform 0.3s;
+}
+
+.tab-button.active {
+  transform: scale(1.1);  
+  color: #3b41a3;
+}
+
+.tab-button.active.title{
+  text-decoration: underline;
+  text-decoration-color: #011f4f0f;
+}
+
+
+
+.theme-gradient {
+  background: linear-gradient(90deg, #fc232b, #2442ad);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.title {
+  margin-top: 8px;
+}
+
+
+.tab-content {
+  display: flex;
+  text-align: left;
+}
+
+.btn-default {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+.btn-default:hover {
+  background-color: #4f46e5;
+}
+
+.h-50{
+  height: 25rem;
+}
+
+a{
+  cursor: pointer;
 }
